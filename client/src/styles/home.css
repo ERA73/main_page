@@ -14,14 +14,15 @@
     font-family: math;
     align-self: center;
 }
-.home-top h2{
+.home-top h3{
     font-size: 8vw;
     padding: 0px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.home-top h5{
+.home-top h2{
+    font-size: 2vw;
     padding: 10px 0px;
     display: flex;
     align-items: center;

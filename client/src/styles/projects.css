@@ -1,0 +1,52 @@
+.projects-container {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    padding: 1vh 0;
+    box-sizing: border-box;
+  }
+  
+  .project-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    height: 7vh;
+    width: 50%;
+  
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+  
+    margin-bottom: 2vh;
+  
+    padding: 0;
+    text-decoration: none;
+    color: #333;
+  
+    font-weight: 600;
+    font-size: 1.1rem;
+  
+    background-color: gray;
+  
+    cursor: pointer;
+    user-select: none;
+  
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 1vh;
+  }
+  
+  .project-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .project-item:hover,
+  .project-item:focus {
+    background-color: cadetblue;
+    color: white;
+    outline: none;
+  }

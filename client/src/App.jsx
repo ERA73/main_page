@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { HomePage } from './pages/HomePage'
+import { ProjectsPage } from './pages/ProjectsPage'
 import { Navigation } from './components/Navigation'
 import { Footer } from './components/Footer'
 import { Element } from 'react-scroll';
@@ -21,6 +22,9 @@ function App() {
         <div className='container'>
           <Element name='/'>
             <HomePage />
+          </Element>
+          <Element name='/projects'>
+            <ProjectsPage />
           </Element>
         </div>
       </BrowserRouter>

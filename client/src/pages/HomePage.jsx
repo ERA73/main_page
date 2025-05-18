@@ -7,9 +7,9 @@ export function HomePage() {
   return (
     <div className="home-wrapper">
       <div className="home-top">
-        <h5>Backend Dev</h5>
-        <h2>ESTEBAN</h2>
-        <h2>RAMIREZ</h2>
+        <h3>ESTEBAN</h3>
+        <h3>RAMIREZ</h3>
+        <h2>Backend Dev</h2>
       </div>
       <div className="home-picture">
         <div className="home-circle">

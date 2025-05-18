@@ -1,5 +1,4 @@
 import React, { useRef, useEffect, useState } from 'react';
-// import { Link, NavLink } from "react-router-dom"
 import { FaTimes, FaBars } from 'react-icons/fa';
 import { FcBriefcase } from 'react-icons/fc';
 import '../styles/navbar.css';
@@ -32,6 +31,7 @@ export function Navigation() {
             </Link>
             <nav ref={navRef}>
                 <Link activeClass="link-active" spy={true} offset={-nav_height} to="/" smooth={true} duration={scroll_duration} onClick={hideNavbar} className="link">Home</Link>
+                <Link activeClass="link-active" spy={true} offset={-nav_height} to="/projects" smooth={true} duration={scroll_duration} onClick={hideNavbar} className="link">Projects</Link>
                 <button className="nav-btn nav-btn-close" onClick={showNavbar}><FaTimes /></button>
             </nav>
             <button className="nav-btn nav-btn-bars" onClick={showNavbar}><FaBars /></button>
